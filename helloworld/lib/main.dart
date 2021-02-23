@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:helloworld/screen/home_screen.dart';
 import 'package:helloworld/widget/bottom_bar.dart';
 
 void main() {
@@ -13,7 +14,8 @@ class _MyAppState extends State<MyApp> {
   TabController controller;
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title:'ncavchlFlix',
+    return MaterialApp(
+      title:'ncavchlFlix',
       theme: ThemeData(
           brightness: Brightness.dark,
           primaryColor: Colors.black,
@@ -25,7 +27,7 @@ class _MyAppState extends State<MyApp> {
           body: TabBarView(
             physics: NeverScrollableScrollPhysics(),
             children: <Widget>[
-              Container(child:Center(child:Text('home'),),),
+              HomeScreen(),
               Container(child:Center(child:Text('search'),),),
               Container(child:Center(child:Text('save'),),),
               Container(child:Center(child:Text('list'),),),
