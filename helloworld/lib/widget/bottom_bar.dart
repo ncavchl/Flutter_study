@@ -7,7 +7,7 @@ class Bottom extends StatelessWidget {
     return Container(
         color:Colors.black,
         child:Container(
-            height:50,
+            height:54,
             child:TabBar(
                 labelColor:Colors.white,
                 unselectedLabelColor: Colors.white60,
@@ -16,7 +16,7 @@ class Bottom extends StatelessWidget {
                   Tab(
                       icon:Icon(
                         Icons.home,
-                        size:18,
+                        size:16,
                       ),
                       child:Text(
                         '홈',
@@ -26,7 +26,7 @@ class Bottom extends StatelessWidget {
                   Tab(
                       icon:Icon(
                         Icons.search,
-                        size:18,
+                        size:16,
                       ),
                       child:Text(
                         '검색',
@@ -36,7 +36,7 @@ class Bottom extends StatelessWidget {
                   Tab(
                       icon:Icon(
                         Icons.save_alt,
-                        size:18,
+                        size:16,
                       ),
                       child:Text(
                         '저장한 콘텐츠 목록',
@@ -46,7 +46,7 @@ class Bottom extends StatelessWidget {
                   Tab(
                       icon:Icon(
                         Icons.list,
-                        size:18,
+                        size:16,
                       ),
                       child:Text(
                         '더보기',
