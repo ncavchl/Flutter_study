@@ -1,5 +1,5 @@
-import 'dart:html';
-
+//import 'dart:html';
+import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:helloworld/model/model_movie.dart';
 
@@ -12,7 +12,7 @@ class CarouselImage extends StatefulWidget {
 class _CarouselImageState extends State<CarouselImage> {
   List<Movie> movies;
   List<Widget> images;
-  List<String> kyewords;
+  List<String> keywords;
   List<bool> likes;
   int _currentPage = 0;
   String _currentKeyword;
@@ -36,19 +36,23 @@ class _CarouselImageState extends State<CarouselImage> {
             padding: EdgeInsets.all(20),
           ),
           CarouselSlider(
-            items: images, 
-            onPageChanged: (index) {
-              setState(() {
-                _currentPage = index;
-                _currentKeyword = kyewords[_currentPage];
-              });
-            },
-          },    
+            items: images,
+              options: CarouselOptions(
+                  onPageChanged: (index, reason) {
+                    setState(() {
+                      _currentPage = index;
+                      _currentKeyword = keywords[_currentPage];
+                    });
+                  }
+              ),
+          ),
           Container(
             child: Text(_currentKeyword),
           ),
         ],
-      },
+      ),
     );
+
+    //w
   }
 }
