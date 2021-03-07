@@ -15,7 +15,31 @@ class _HomeScreenState extends State<HomeScreen> {
         'poster' : 'batman.jpg',
         'like' : false
       }
-    )
+    ),
+    Movie.fromMap(
+        {
+          'title' : '배트맨2',
+          'keyword' : '액션/스릴러/',
+          'poster' : 'batman.jpg',
+          'like' : false
+        }
+    ),
+    Movie.fromMap(
+        {
+          'title' : '배트맨3',
+          'keyword' : '액션//명작',
+          'poster' : 'batman.jpg',
+          'like' : false
+        }
+    ),
+    Movie.fromMap(
+        {
+          'title' : '배트맨4',
+          'keyword' : '/스릴러/명작',
+          'poster' : 'batman.jpg',
+          'like' : false
+        }
+    ),
   ];
 
   @override
