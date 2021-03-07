@@ -32,14 +32,6 @@ class _HomeScreenState extends State<HomeScreen> {
           'like' : false
         }
     ),
-    Movie.fromMap(
-        {
-          'title' : '배트맨4',
-          'keyword' : '/스릴러/명작',
-          'poster' : 'batman.jpg',
-          'like' : false
-        }
-    ),
   ];
 
   @override
