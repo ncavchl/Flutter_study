@@ -6,11 +6,4 @@ FIRST_flutter
   https://www.inflearn.com/course/flutter-netflix-clone-app#
   >20210218 세팅완료
 
-
--20210224
--20210226
--20210304
--20210312
--20210314
--20210316
--
+![화면 기록 2021-03-24 오전 2 32 35](https://user-images.githubusercontent.com/48319693/112191467-64687280-8c49-11eb-907e-6b0ec94bf267.gif)
