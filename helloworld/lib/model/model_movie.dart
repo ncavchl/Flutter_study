@@ -8,6 +8,7 @@ class Movie {
   final DocumentReference reference;
 
 
+  //test
   Movie.fromMap(Map<String, dynamic> map , {this.reference})
   : title = map['title'],
     keyword = map['keyword'],
