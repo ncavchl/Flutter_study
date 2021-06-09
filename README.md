@@ -57,7 +57,7 @@ WillPopScope() 로 scaffold()를 감싸보자
   }
   
 ```
-SystemNavigator 사용을 위해 아래 추가 
+SystemNavigator 사용을 위해 아래 추가 필요
 ``` dart
 import 'package:flutter/services.dart';
 ```
