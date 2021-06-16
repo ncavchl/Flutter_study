@@ -61,3 +61,8 @@ SystemNavigator 사용을 위해 아래 추가 필요
 ``` dart
 import 'package:flutter/services.dart';
 ```
+
+## yahoo finance 지원
+``` dart
+import 'package:yahoofin/yahoofin.dart';
+```
